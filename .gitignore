@@ -12,3 +12,4 @@ ubuntu-0.1/platforms/linux64GccDPInt32Opt/bin/applyCurveBoundary
 ubuntu-0.1/platforms/linux64GccDPInt32Opt/bin/Test-io
 HopeFOAM-0.1/tutorials/DG/2D/cylinder/postProcessing/
 HopeFOAM-0.1/tutorials/DG/2D/cylinder/dgChorinFoamCylinder
+HopeFOAM-0.1/tutorials/DG/2D/cylinder/[1-9]*
