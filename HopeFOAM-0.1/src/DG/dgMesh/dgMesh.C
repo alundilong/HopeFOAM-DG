@@ -82,10 +82,10 @@ Foam::dgMesh::dgMesh(const IOobject& io)
 	PetscBool ifInit;
 	PetscInitialized(&ifInit);
 	if(!ifInit){
-		int argc = 2;
-		char **argv = new char*[3];
-		argv[1] = new char[20];
-		sprintf(argv[1], "-no_signal_handler");
+		int argc = 1;
+		char **argv = new char*[1];
+		argv[0] = new char[20];
+		sprintf(argv[0], "-no_signal_handler");
 		PetscInitialize(&argc, &argv, (char *)0, "");
 	}
 
