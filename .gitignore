@@ -1,0 +1,14 @@
+ThirdParty-0.1/petsc-v3.7.6/
+
+*.vtk
+*.swp
+*.OpenFOAM
+*.foam
+
+# ignore case produced files
+HopeFOAM-0.1/tutorials/DG/2D/cylinder/0.*
+HopeFOAM-0.1/tutorials/DG/2D/cylinder/dynamicCode/
+ubuntu-0.1/platforms/linux64GccDPInt32Opt/bin/applyCurveBoundary
+ubuntu-0.1/platforms/linux64GccDPInt32Opt/bin/Test-io
+HopeFOAM-0.1/tutorials/DG/2D/cylinder/postProcessing/
+HopeFOAM-0.1/tutorials/DG/2D/cylinder/dgChorinFoamCylinder
