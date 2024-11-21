@@ -31,13 +31,13 @@
 #     If using system-wide installations for either one, use the following
 #     version settings:
 #
-#         boost_version=boost-system
-#         cgal_version=cgal-system
+#         boost_version=boost-1.55.0
+#         cgal_version=CGAL-4.8
 #
 #------------------------------------------------------------------------------
 
-boost_version=boost-system
-cgal_version=cgal-system
+boost_version=boost-1.55.0
+cgal_version=CGAL-4.8
 #cgal_version=CGAL-4.8
 
 if [ -z "$SOURCE_CGAL_VERSIONS_ONLY" ]

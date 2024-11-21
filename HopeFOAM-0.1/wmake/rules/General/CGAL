@@ -11,4 +11,4 @@ CGAL_LIBS = \
     -L$(BOOST_ARCH_PATH)/lib \
     -L$(CGAL_ARCH_PATH)/lib \
     -lCGAL \
-    -lmpfr
+    -lmpfr -lboost_thread
