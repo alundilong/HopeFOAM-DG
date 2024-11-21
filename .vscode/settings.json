@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "fileStat.C": "cpp",
+        "dgMesh.C": "cpp",
+        "CodedDgPatchTemplate.C": "cpp"
+    }
+}
