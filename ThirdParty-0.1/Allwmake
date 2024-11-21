@@ -124,7 +124,12 @@ MPICH)
 
         [ -e Makefile ] && make distclean 2>/dev/null
         rm -rf $MPI_ARCH_PATH
-        rm util/machines/machines.*
+        
+        if [ -d "util/machines" ]; then
+            echo "Directory exists: $(ls -ld util/machines)"
+        else
+            echo "Directory does not exist."
+        fi
 
         ./configure \
             --prefix=$MPI_ARCH_PATH \
